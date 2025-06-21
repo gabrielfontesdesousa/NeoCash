@@ -33,11 +33,11 @@ export default function ContentHome() {
               className={clsx("text-[50px]", "font-light", "leading-snug")}
               style={{
                 color: "white",
-                filter: "blur(1px)",
+                filter: "blur(0px)",
                 WebkitMaskImage:
-                  "linear-gradient(to right, black 70%, transparent 100%)",
+                  "linear-gradient(to right, black 20%, transparent 100%)",
                 maskImage:
-                  "linear-gradient(to right, black 70%, transparent 100%)",
+                  "linear-gradient(to right, black 10%, transparent 100%)",
                 WebkitMaskRepeat: "no-repeat",
                 maskRepeat: "no-repeat",
                 WebkitMaskSize: "100% 100%",
